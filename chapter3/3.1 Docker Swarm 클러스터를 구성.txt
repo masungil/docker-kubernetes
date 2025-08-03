@@ -43,7 +43,7 @@
    sudo ufw allow ssh
 
   또는 포트 번호를 직접 지정할 수도 있습니다.
-   1 sudo ufw allow 22/tcp
+   sudo ufw allow 22/tcp
 
 
   4. UFW 활성화하기
