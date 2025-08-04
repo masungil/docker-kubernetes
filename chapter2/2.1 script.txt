@@ -151,11 +151,17 @@ cd home
 #testdir_2 폴더 생성한다 
 mkdir testdir_2
 
+#testdir_2 폴더 이동한다 
+cd testdir_2
+
 #test 파일을 생성한다 
 echo Hello World > test
 
 #test 파일의 내용을 확인한다
 #cat test
+
+#컨테이너를 종료한다
+exit
 
 #29. 실행중인 컨테이너를 로컬 저장소에 저장하기(commit)
 #docker commit -m "메시지" [컨테이너명] [저장이미지명]
