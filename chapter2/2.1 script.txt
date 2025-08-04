@@ -151,6 +151,9 @@ cd home
 #testdir_2 폴더 생성한다 
 mkdir testdir_2
 
+#testdir_2 폴더 변경한다 
+cd testdir_2
+
 #test 파일을 생성한다 
 echo Hello World > test
 
